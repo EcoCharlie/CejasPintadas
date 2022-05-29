@@ -1,0 +1,15 @@
+<mat-toolbar class="title-section">
+  <span>Competences</span>
+</mat-toolbar>
+<div class="divider">
+  <mat-divider></mat-divider>
+</div>
+
+<div class="card-container">
+  <mat-card class="card" *ngFor="let competence of competences">
+    <mat-card-title>{{competence.title}}</mat-card-title>
+    <mat-card-content>
+      <p>{{competence.content}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

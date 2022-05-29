@@ -1,0 +1,40 @@
+
+/*Toolbar*/
+.title-section {
+  background-color: transparent;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 250%;
+}
+.divider {
+  display: flex;
+  justify-content: center;
+}
+.divider mat-divider {
+  border-top-color: #fff;
+  width: 340px;
+}
+/*Filter*/
+.filter-container{
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 90%;
+  margin: 15px auto;
+  padding: 10px 10px;
+  background-color: #fff;
+}
+.filter {
+  width: 80%;
+  color: #000;
+}
+.btn-filter-container {
+  text-align: center;
+  margin: auto 10px;
+}
+/*Table*/
+.table {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+}

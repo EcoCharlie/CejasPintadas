@@ -1,0 +1,26 @@
+<div class="container">
+  <h3>Edit person No. <b>{{data.id}}</b></h3>
+  <form mat-dialog-content #formControl="ngForm">
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Name" [(ngModel)]="data.name" name="name" value="{{data.name}}">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Year" [(ngModel)]="data.year" name="year" value="{{data.year}}">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Height" [(ngModel)]="data.height" name="height" value="{{data.height}}">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-dialog-actions>
+        <button mat-button type="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="updatePerson(data)">Save</button>
+        <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+      </mat-dialog-actions>
+    </div>
+  </form>
+</div>

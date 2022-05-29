@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Add Person</h1>
+  <form mat-dialog-content #formControl="ngForm">
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Name" [(ngModel)]="data.name" name="name">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Year" [(ngModel)]="data.year" name="year">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-form-field color="accent">
+        <input matInput placeholder="Height" [(ngModel)]="data.height" name="height">
+      </mat-form-field>
+    </div>
+    <div class="form">
+      <mat-dialog-actions>
+        <button mat-button type="submit" [disabled]="!formControl.valid" [mat-dialog-close]="1" (click)="createPerson(data)">Save</button>
+        <button mat-button (click)="onNoClick()" tabindex="-1">Cancel</button>
+      </mat-dialog-actions>
+    </div>
+  </form>
+</div>

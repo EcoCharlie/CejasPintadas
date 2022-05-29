@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <button mat-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button>
+  <span class="spacer"></span>
+  <span class="toolbar-title"><mat-icon>pets</mat-icon>Cejas Pintadas</span>
+  <span class="spacer"></span>
+  <button mat-button><mat-icon>logout</mat-icon></button>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav class="sidenav" opened="false" mode="push">
+    <mat-list>
+      <span class="sidenav-title">List Dashboard</span>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <a mat-button [routerLink]="'/competences'" class="sidenav-option" (click)="sidenav.close()"><mat-icon>edit_note</mat-icon>Competences</a>
+      </mat-list-item>
+      <mat-list-item>
+        <a mat-button [routerLink]="'/crud'" class="sidenav-option" (click)="sidenav.close()"><mat-icon>edit_note</mat-icon>Crud</a>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="sidenav-content">
+
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+

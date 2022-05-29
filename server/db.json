@@ -1,0 +1,37 @@
+{
+  "competences": [
+    {
+      "id": 1,
+      "title": "Mathematics forever",
+      "content": "Lorem Mathematics ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad animi culpa delectus dignissimos dolorem doloremque esse et id itaque, laboriosam non nostrum, nulla, officiis perspiciatis reiciendis repudiandae sint."
+    },
+    {
+      "id": 2,
+      "title": "Communication  forever",
+      "content": "Lorem Communication ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad animi culpa delectus dignissimos dolorem doloremque esse et id itaque, laboriosam non nostrum, nulla, officiis perspiciatis reiciendis repudiandae sint."
+    },
+    {
+      "id": 3,
+      "title": "Social Personal forever",
+      "content": "Lorem Social Personal ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad animi culpa delectus dignissimos dolorem doloremque esse et id itaque, laboriosam non nostrum, nulla, officiis perspiciatis reiciendis repudiandae sint."
+    },
+    {
+      "id": 4,
+      "title": "Philosophic forever",
+      "content": "Lorem Philosophic ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad animi culpa delectus dignissimos dolorem doloremque esse et id itaque, laboriosam non nostrum, nulla, officiis perspiciatis reiciendis repudiandae sint."
+    },
+    {
+      "id": 5,
+      "title": "CTA forever",
+      "content": "Lorem CTA ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus ad animi culpa delectus dignissimos dolorem doloremque esse et id itaque, laboriosam non nostrum, nulla, officiis perspiciatis reiciendis repudiandae sint."
+    }
+  ],
+  "persons": [
+    {
+      "name": "Actividad",
+      "year": "23",
+      "height": "13.2",
+      "id": 1
+    }
+  ]
+}
